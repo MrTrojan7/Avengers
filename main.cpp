@@ -5,10 +5,23 @@
 
 int main()
 {
-	TonyStark a;
-	a.HasTheAbility();
-	a.CanStopBullet();
-	a.IsAHuman();
-	a.MakeGoodThings();
+	TonyStark ironman;
+	ironman.HasTheAbility();
+	ironman.IsAHuman();
+	ironman.CanFly();
+	CaptainAmerica cap;
+	//cap.CanFly(); //no flying
+	Hulk hulk;
+	//hulk.CanFly(); //no flying
+	Vision vision;
+	vision.CanFly();
+	Thor thor;
+	thor.IsAGod();
+	thor.CanFly();
+	Ultron ultron;
+	ultron.CanFly();
+	Thanos thanos;
+	
+
 	return 0;
 }

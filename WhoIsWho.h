@@ -1,5 +1,4 @@
 #pragma once
-//#include "AllLibraries.h"
 #include "Ability.h"
 
 class BadGuy abstract
@@ -38,9 +37,8 @@ public:
 	virtual void IsAnAnimal() { cout << "Animal\n"; };
 };
 
-class SuperHero abstract 
+class SuperHero abstract
 {
 public:
 	virtual void HasTheAbility() { cout << "Abilities:\n"; };
 };
-

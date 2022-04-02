@@ -1,5 +1,5 @@
 #pragma once
-//#include "AllLibraries.h"
+#include "AllLibraries.h"
 
 class Ability abstract
 {
@@ -47,4 +47,10 @@ class Invisibility abstract : public Ability
 {
 public:
 	virtual void CanInvisible() { cout << "Can invisible\n"; };
+};
+
+class Vorthy abstract : public Ability
+{
+public:
+	virtual void StillVorthy() { cout << "Mjolnir!\n"; };
 };
